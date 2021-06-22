@@ -1,6 +1,6 @@
 import sys
 import argparse
-from pip_search.pip_search import search
+from pipx_search_test.pip_search import search
 
 
 def main():
