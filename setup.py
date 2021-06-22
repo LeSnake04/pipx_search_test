@@ -8,11 +8,11 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-    name="pip_search",
+    name="pipx_search_test",
     version="0.0.7",
-    author="Victor Garric",
-    author_email="victor.garric@gmail.com",
-    url='https://github.com/victorgarric/pip_search',
+    author="LeSnake",
+    author_email="dev.lesnake@posteo.de",
+    url='https://github.com/LeSnake04/pipx_search_test',
     description="A package to search like pip used to via PyPi",
     long_description=README,
     long_description_content_type='text/markdown',
@@ -26,7 +26,7 @@ setup(
     python_requires='>=3.',
     entry_points={
         "console_scripts": [
-            "pip_search=pip_search.__main__:main",
+            "pipx_search_test=pipx_search_test.__main__:main",
         ],
     },
 )
